@@ -1,0 +1,32 @@
+site_name: Tech Notes
+docs_dir: .
+site_dir: ../Tech_Notes
+
+theme:
+  features:
+    - navigation.indexes  
+    - navigation.expand
+  palette:
+    scheme: slate
+    primary: teal
+  name: material
+  font:
+     text: Fira Code
+
+plugins:
+  - search
+  - embed_file   
+  - same-dir
+  - section-index
+  - ezlinks:
+        wikilinks: true
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences     
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
