@@ -1,0 +1,6 @@
+mkdocs
+mkdocs-material
+mkdocs-section-index
+mkdocs-embed-file-plugins
+mkdocs-same-dir
+mkdocs-ezlinks-plugin
