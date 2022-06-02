@@ -4,7 +4,6 @@ IP addresses are constructed in binary Octets. An Octet is a group of 8 binary d
 
 ### Binary Octets
 
-^089948
 
 Using the **binary doubling chart** you can work out the decimal value of an octet:
 
